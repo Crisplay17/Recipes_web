@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  border: 0px;
+  overflow: hidden;
+}
+body{
+  background: url("recipes.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  font-family: brush script mt, cursive;
+  font-size: 60px;
+}
+#menu{
+  background-color: pink;
+  padding: 14px 16px;
+  display:inline-block;
+  vertical-align: top;
+}

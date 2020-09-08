@@ -1,0 +1,98 @@
+*{
+  border: 0px;
+  margin: 0px;
+}
+body{
+  background: url("background.jpg");
+  width: 100%;
+  height : auto;
+  background-repeat: no-repeat;
+}
+#pizza{
+  float: left;
+  height: auto;
+  width : auto;
+}
+h1{
+  background : url("cooking.jpg");
+  text-align: center;
+  margin: 0px;
+  font-size: 50px;
+  font-style: italic;
+  font-family: brush script mt, cursive;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+  display: none;
+}
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  padding : 6px;
+}
+ul a{
+  font-family: georgia;
+  font-style: italic;
+  border-top: 3px solid black;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  background-color: white;
+  padding : 14px 16px;
+  color : red;
+  text-align: center;
+}
+h1:first-child{
+  background : url("cooking_1.jpg");
+  transition-duration: 1s;
+}
+h1:hover{
+  background : url("cooking.jpg");
+  transition-duration: 1s;
+}
+a:hover{
+  background-color: yellow;
+  transition-duration: 1s;
+}
+nav:hover ul{
+  display: block;
+}
+.content{
+  font-family: brush script mt, cursive;
+  position:inherit;
+  text-align: center;
+  padding : 200px 30px 0px 30px;
+  font-size: 50px;
+  color: white;
+}
+.register{
+  text-align: center;
+  font-size: 30px;
+  padding : 20px;
+}
+.register a{
+  border-radius: 8px;
+  font-style: italic;
+  color : black;
+  text-decoration: none;
+  background-color: yellow;
+  padding : 14px 16px;
+}
+.register a:hover{
+  background-color: purple;
+  padding : 14px 16px;
+}
+footer{
+  background-color: white;
+  bottom:0px;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+footer p{
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+}
